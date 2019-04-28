@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<h2>Java Script</h2>
+<p>adding by length</p>
+<button onclick="myFunction()">Click here</button>
+<p id = "demo"></p>
+<script>
+	var fruits = ["Banana","Apple","Mango","Orange","Chikku"]
+	document.getElementById("demo").innerHTML = fruits ;
+
+	function myFunction() {
+		fruits[fruits.length] = "Lemon" ;
+		document.getElementById("demo").innerHTML = fruits;
+		
+
+
+	}
+
+
+
+</script>
+</body>
+</html>

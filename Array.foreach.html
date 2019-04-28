@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+	<h2>Java script</h2>
+	<p>Array.forEach() call a function for each element:</p>
+	<p id="demo"></p>
+	<script>
+		var fruits, text;
+
+		fruits = ["Banana", "Apple", "Mango", "Orange"];
+
+		text = "<ul>";
+		fruits.forEach(myFunction);
+		text += "</ul>" ;
+		document.getElementById("demo").innerHTML = text;
+
+		function myFunction(values){
+			text += "<li>" + values  + "</li>";
+		}
+
+
+	</script>
+
+</body>
+</html>
